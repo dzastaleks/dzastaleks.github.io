@@ -214,9 +214,8 @@ header img{
     .skills{
         padding: 20px;
     }
-    @media(max-width:320px){
-
-        .skills{
-            display: none;
-        }
+    .projects{
+        padding: 20px;
+    }
+}
 }
