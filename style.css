@@ -189,3 +189,12 @@ header img{
     height: 10px;
     display: block;
 }
+
+@media(max-width:768px){
+    .about{
+        padding: 20px;
+    }
+    .skills{
+        padding: 20px;
+    }
+}
