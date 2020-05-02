@@ -51,13 +51,15 @@ header img{
 .about {
     padding: 40px 90px 30px;
     text-align: center;
-
+    color: #333;
+    letter-spacing: 0.1em;
+    line-height: 1.7em;
 }
 .about h2{
     color:#444444;
     font-size: 24px;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     width: 100%;
     text-transform: uppercase;
 }
@@ -217,5 +219,4 @@ header img{
     .projects{
         padding: 20px;
     }
-}
 }
