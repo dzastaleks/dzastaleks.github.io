@@ -221,6 +221,9 @@ header img{
         padding: 40px;
     }
 
+    .about p{
+        text-align: center;
+    }
     
     .projects{
         padding: 20px;
