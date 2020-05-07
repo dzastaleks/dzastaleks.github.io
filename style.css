@@ -67,18 +67,15 @@ header img{
 .about p{ 
     text-align: justify;    
 }
-.skills-wrap{
-    background-color: #fff;
-    margin-left:-1600px;
-    margin-right: -1600px;    
 
-    
-}
 .skills {
+    background-color: #fff;
     padding-top: 40px;
     padding-bottom: 30px;
-    padding-right: 1600px;
-    margin-left: 1600px;
+    width: 100vw;
+    position: relative;
+    margin-left: -50vw;
+    left: 50%;
     text-align: center;
     
 }
@@ -232,6 +229,9 @@ header img{
     .skills img{
         padding-left: 20px;
         padding-right: 20px;
+    }
+    body{
+        overflow-x: hidden;
     }
 }
 
