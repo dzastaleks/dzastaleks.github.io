@@ -227,8 +227,12 @@ header img{
         padding-top: 40px;
     }
     .skills img{
-        padding-left: 20px;
-        padding-right: 20px;
+        
+        padding:0px 20px 20px 20px;
+    }
+    .skills  .fab{
+        padding:0px 20px 20px 20px;
+        
     }
     body{
         overflow-x: hidden;
