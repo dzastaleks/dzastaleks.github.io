@@ -6,6 +6,7 @@ body{
     font-family: 'Open Sans', sans-serif;
     color:#aaa;
     background: #f4f4f4;
+    overflow-x: hidden;
 }
 a{
     color: #5a5a5a;
@@ -66,9 +67,20 @@ header img{
 .about p{ 
     text-align: justify;    
 }
+.skills-wrap{
+    background-color: #fff;
+    margin-left:-1600px;
+    margin-right: -1600px;    
+
+    
+}
 .skills {
-    padding: 40px 90px 30px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-right: 1600px;
+    margin-left: 1600px;
     text-align: center;
+    
 }
 .skills h2{
     color:#444444;
@@ -105,10 +117,7 @@ header img{
     margin-bottom: 20px;
 }
 
-.pro:hover{
-   
 
-}
 .wrapper{
     max-height: 250px;
     overflow: hidden;
@@ -198,6 +207,7 @@ header img{
     height: 10px;
     display: block;
 }
+
 .skills  .fab{
     color: #666;
     text-align: center;
@@ -211,12 +221,17 @@ header img{
 
 @media(max-width:990px){
     .about{
-        padding: 20px;
+        padding: 40px;
     }
-    .skills{
-        padding: 20px;
-    }
+
+    
     .projects{
         padding: 20px;
+        padding-top: 40px;
+    }
+    .skills img{
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
+
