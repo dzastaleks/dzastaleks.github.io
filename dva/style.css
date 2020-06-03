@@ -14,7 +14,7 @@ body{
     grid-template-columns: 1fr 1fr;
 }
 .sectionA{
-    margin-top: 30%;
+    margin-top: 40vh;
 }
 .sectionB{
     margin-top: 30%;
@@ -22,7 +22,7 @@ body{
 }
 .sectionA h1{
     font-family: 'Merienda', cursive;
-    font-size: 42px;
+    font-size: 64px;
     color: khaki;
 }
 .logoImage{
