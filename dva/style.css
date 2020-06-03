@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&family=Oswald:wght@400;600&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background:rgb(0, 85, 110);
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+}
+.main{
+    height: 100vh;
+    text-align: center;
+    margin:0 auto 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.sectionA{
+    margin-top: 30%;
+}
+.sectionB{
+    margin-top: 30%;
+    padding-right: 10%;
+}
+.sectionA h1{
+    font-family: 'Merienda', cursive;
+    font-size: 42px;
+    color: khaki;
+}
+.logoImage{
+    border-radius: 50%;
+    box-shadow: 3px 3px 450px khaki;
+    filter: grayscale(10%);
+    filter: blur(0.5px);
+
+}
+.sectionA img{
+    max-width: 300px;
+}
+.sectionB h2{
+    text-align: left;
+    font-family: 'Merienda', cursive;
+    font-size: 36px;
+    color: khaki;
+}
+.sectionB .about p{
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 1.3em;
+}
+.sectionB .social{
+    margin-top: 50px;
+    text-align: left;
+}
+.social a{
+    text-decoration: none;
+    border: none;
+    color: khaki;
+    border: 1px solid khaki;
+    padding: 10px 20px;
+    margin-right: 10px; 
+    transition: linear 0.6s background;
+    }
+.social a:hover{
+    background-color:khaki;
+    box-shadow: 0 0 10px khaki;
+
+    color:rgb(0, 85, 110);
+
+}
+.skills{
+    text-transform: uppercase;
+}
+
+@media (max-width: 800px) {
+    .main{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .sectionA{
+        display: flex;
+        margin-top: 10%;
+        flex-direction: column-reverse;
+    }
+    .sectionB{
+        margin-top: 10%;
+        padding: 0 10%;
+    }
+    .sectionB h2{
+        text-align: center;
+    }
+    .sectionB .social{
+        margin-top: 20px;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .sectionB .social a{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+  }
+  @media(min-width:801px) and (max-width:1024px){
+    .sectionB .social{
+        margin-top: 20px;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .sectionB .social a{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+  }
