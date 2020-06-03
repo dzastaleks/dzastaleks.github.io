@@ -23,7 +23,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /*padding-right: 250px;*/
+    padding-right: 10%;
 }
 .sectionA h1{
     font-family: 'Merienda', cursive;
