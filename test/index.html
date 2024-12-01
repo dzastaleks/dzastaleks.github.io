@@ -3,50 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aleksandar Stupar Portfolio</title>
+    <title>Futuristic Portfolio - Aleksandar Stupar</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
+    <canvas id="portfolioCanvas"></canvas>
+    <div class="overlay">
       <h1>Aleksandar Stupar</h1>
-      <p>Web Developer Portfolio</p>
-    </header>
+      <p>Web Developer & 3D Enthusiast</p>
+    </div>
 
-    <section class="portfolio">
-      <div class="card" onclick="flipCard(this)">
-        <div class="front">
-          <h2>Project 1</h2>
-          <p>Click to see details</p>
-        </div>
-        <div class="back">
-          <p>
-            Details about Project 1. Include tools used, features, and a link to
-            the project.
-          </p>
-        </div>
-      </div>
-
-      <div class="card" onclick="flipCard(this)">
-        <div class="front">
-          <h2>Project 2</h2>
-          <p>Click to see details</p>
-        </div>
-        <div class="back">
-          <p>
-            Details about Project 2. Include tools used, features, and a link to
-            the project.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <footer>
-      <p>
-        Contact:
-        <a href="mailto:your-email@example.com">your-email@example.com</a>
-      </p>
-    </footer>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
