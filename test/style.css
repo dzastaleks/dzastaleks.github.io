@@ -1,28 +1,26 @@
-body {
-  margin: 0;
-  overflow: hidden;
-  font-family: "Arial", sans-serif;
-}
-
-canvas {
-  display: block;
-}
-
-.overlay {
+.project-info {
   position: absolute;
-  top: 10%;
+  top: 20%;
   left: 50%;
   transform: translateX(-50%);
-  text-align: center;
+  background: rgba(0, 0, 0, 0.8);
   color: white;
-  z-index: 2;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  z-index: 3;
 }
 
-.overlay h1 {
-  font-size: 3rem;
-  margin-bottom: 10px;
+.project-info h2 {
+  margin-bottom: 15px;
 }
 
-.overlay p {
-  font-size: 1.5rem;
+.project-info button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
