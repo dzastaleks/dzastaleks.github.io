@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/need-funding", {data:[{}],fetch:[],mutations:[]});
